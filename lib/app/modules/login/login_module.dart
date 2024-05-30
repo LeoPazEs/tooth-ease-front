@@ -22,6 +22,6 @@ class LoginModule extends Module {
   @override
   final List<ModularRoute> routes = [
     ChildRoute('/', child: (_, args) => const LoginPage()),
-    ChildRoute('/register', child: (_, args) => const RegisterPage())
+    ChildRoute('/register/', child: (_, args) => const RegisterPage())
   ];
 }
